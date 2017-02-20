@@ -20,10 +20,10 @@ namespace HoloToolkitExtensions
         {
             // This code to make sure the logic still works in someone
             // set the IsActive field directly
-            //if (IsActive != gameObject.activeSelf)
-            //{
-            //    gameObject.SetActive(IsActive);
-            //}
+            if (IsActive != gameObject.activeSelf)
+            {
+                gameObject.SetActive(IsActive);
+            }
         }
     }
 }

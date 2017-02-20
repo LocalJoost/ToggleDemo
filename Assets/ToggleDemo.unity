@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -113,7 +113,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 48601689}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1168400463}
@@ -137,7 +137,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4482690202586754, guid: 149f3f2ef9e55ba42be36eb8c0da5ca3, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.1
+      value: -0.09
       objectReference: {fileID: 0}
     - target: {fileID: 4482690202586754, guid: 149f3f2ef9e55ba42be36eb8c0da5ca3, type: 2}
       propertyPath: m_LocalPosition.z
@@ -355,7 +355,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4482690202586754, guid: 149f3f2ef9e55ba42be36eb8c0da5ca3, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.1
+      value: -0.09
       objectReference: {fileID: 0}
     - target: {fileID: 4482690202586754, guid: 149f3f2ef9e55ba42be36eb8c0da5ca3, type: 2}
       propertyPath: m_LocalPosition.z
@@ -392,6 +392,11 @@ Prefab:
     - target: {fileID: 1507043310506550, guid: 149f3f2ef9e55ba42be36eb8c0da5ca3, type: 2}
       propertyPath: m_Name
       value: FadeCapsule1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114568988719426790, guid: 149f3f2ef9e55ba42be36eb8c0da5ca3,
+        type: 2}
+      propertyPath: IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 149f3f2ef9e55ba42be36eb8c0da5ca3, type: 2}
@@ -670,6 +675,11 @@ Prefab:
     - target: {fileID: 1417867993681838, guid: 181e1d2b764ac3f4489e4bb059e88bc2, type: 2}
       propertyPath: m_Name
       value: DisappearCube1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114341944548740802, guid: 181e1d2b764ac3f4489e4bb059e88bc2,
+        type: 2}
+      propertyPath: IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 181e1d2b764ac3f4489e4bb059e88bc2, type: 2}
