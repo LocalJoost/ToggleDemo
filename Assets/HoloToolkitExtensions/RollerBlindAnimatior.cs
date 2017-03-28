@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace HoloToolkitExtensions
 {
-    public class RollerBlindAnimatior : Togglable, IInputClickHandler
+    public class RollerBlindAnimatior : Togglable
     {
         public float PlayTime = 1.5f;
 
@@ -25,10 +25,6 @@ namespace HoloToolkitExtensions
             AnimateObject(gameObject, 0, 0);
         }
 
-        public void OnInputClicked(InputClickedEventData eventData)
-        {
-            Toggle();
-        }
 
         public override void Toggle()
         {
