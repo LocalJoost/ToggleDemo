@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ee079743a81c246b67a80ee79c6bc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImageUrl: http://www.schaikweb.net/dotnetbyexample/daffodils.jpg
+  ImageUrl: http://schaikweb.net/dotnetbyexample/daffodils.jpg
   ResizePlane: 0
 --- !u!114 &370657703
 MonoBehaviour:
